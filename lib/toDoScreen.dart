@@ -110,14 +110,6 @@ class _ToDoScreenState extends State<ToDoScreen> {
     return Slidable(
       actionPane: SlidableDrawerActionPane(),
       actionExtentRatio: 0.25,
-      actions: [
-        IconSlideAction(
-          caption: "Güncelle",
-          color: Colors.blue,
-          icon: Icons.edit_outlined,
-          onTap: () {},
-        )
-      ],
       secondaryActions: [
         IconSlideAction(
           caption: "Sil",
